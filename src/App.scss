@@ -1,7 +1,8 @@
-$primary-color: #ffd700;
+$primary-color: #f44141;
+$secondary-color: #632f2f;
 
 @import 'animate.css';
-@import '~loaders.css/src/animations/pacman.scss';
+@import 'loaders.css/src/animations/ball-rotate.scss';
 
 @font-face {
   font-family: 'Helvetica Neue';

@@ -1,3 +1,6 @@
+$primary-color: #f44141;
+$quinary-color: #f6b6b6;
+
 .text-animate {
   display: inline-block;
   opacity: 0;
@@ -6,21 +9,36 @@
   animation-delay: 1s;
   animation-fill-mode: forwards;
   min-width: 10px;
+  cursor: context-menu;
+  &._name {
+    color: $primary-color;
+  }
 }
 
 .text-animate-hover {
+  cursor: context-menu;
   min-width: 10px;
   display: inline-block;
   animation-fill-mode: both;
-
+  &._name {
+    color: $quinary-color;
+  }
   &:hover {
-    animation: rubberBand 1s;
-    color: #ffd700;
+    // animation: rubberBand 1s;
+    color: $primary-color;
+    transition: 0.3s;
   }
 }
 
-@for $i from 1 through 35 {
+@for $i from 1 through 40 {
   .text-animate._#{$i} {
     animation-delay: #{$i / 10}s;
   }
+}
+
+.text-animate._1,
+.text-animate._13,
+.text-animate._27,
+.text-animate-hover._27 {
+  font-size: 4.7rem;
 }
