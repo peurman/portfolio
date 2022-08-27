@@ -10,6 +10,13 @@ $secondary-color: #632f2f;
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'kanitregular';
+  src: url('./assets/fonts/kanit-regular-webfont.woff2') format('woff2'),
+    url('./assets/fonts/kanit-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'La Belle Aurore';

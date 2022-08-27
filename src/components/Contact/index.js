@@ -48,12 +48,13 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in working in a company as a <b>web developer</b> or{' '}
-            <b>full stack developer.</b>
+            I am interested in working in a company where I feel challenged and
+            where I am able to develope professionally as a <i>web developer</i>{' '}
+            or <i>full stack developer.</i>
           </p>
           <p>
-            If you have any other requests or questions, don't hesitate to
-            contact me using this form.
+            If you wish to contact me, if you have any questions or suggestions,
+            you can do it through this form. Thanks!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

@@ -45,9 +45,10 @@ $primary-color: #f44141;
 .container.portfolio-page {
   h1 {
     font-size: 53px;
-    font-family: 'Coolvetica';
+    font-family: 'kanitregular';
+    letter-spacing: -0.5px;
     color: $primary-color;
-    font-weight: 400;
+    font-weight: bold;
     margin-top: 0;
     position: relative;
     margin-bottom: 20px;
@@ -115,7 +116,7 @@ $primary-color: #f44141;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1080px) {
   .page {
     position: initial;
   }
