@@ -9,6 +9,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #654a4a;
+  background: linear-gradient(
+    90deg,
+    rgba(101, 74, 74, 1) 0%,
+    rgba(101, 74, 74, 0.7332090062587535) 100%
+  );
+  /* background-size: auto;
+  background-repeat: repeat; */
   overflow: hidden;
   display: block;
 }
