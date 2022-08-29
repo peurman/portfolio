@@ -1,34 +1,20 @@
 {
-    "portfolio": [
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        }
-    ]
+  "portfolio": [
+    {
+      "cover": "/portfolio/COUNTRIES_img.png",
+      "title": "COUNTRIES",
+      "description": "React, Redux, Vanilla CSS, NodeJS, Express, Sequelize, PostgreSQL",
+      "deploy": "https://pi-countries-theta.vercel.app/",
+      "repo": "https://github.com/peurman/Henry-Individual-Project-COUNTRIES",
+      "video": "https://www.youtube.com/watch?v=eu-Lo3VPczw"
+    },
+    {
+      "cover": "/portfolio/BOOKSTORE_img.png",
+      "title": "BOOKSTORE",
+      "description": "React, Redux, SASS, NodeJS, Express, Sequelize, PostgreSQL  & others",
+      "deploy": "https://bookstore-rose.vercel.app/",
+      "repo": "https://github.com/peurman/Henry-Group-Project-BOOKSTORE",
+      "video": "https://www.youtube.com/watch?v=Nj_oaV7BKZc"
+    }
+  ]
 }

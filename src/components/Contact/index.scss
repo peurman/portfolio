@@ -87,14 +87,16 @@ $quaternary-color: #321515;
     border: none;
     float: right;
     text-align: center;
+    margin-top: 15px;
     margin-right: 10px;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 0.5s;
     &:hover {
       color: $primary-color;
+      transform: translateY(-3px);
       border: none;
-      background: $tertiary-color;
-      transition: 0.7s;
+      background: #e6e6e6;
+      transition: 0.5s;
     }
   }
 }

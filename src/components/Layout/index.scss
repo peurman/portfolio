@@ -51,7 +51,7 @@ $primary-color: #f44141;
     font-weight: bold;
     margin-top: 0;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     left: -10px;
 
     // &:before {
@@ -101,7 +101,7 @@ $primary-color: #f44141;
   .text-zone {
     position: absolute;
     left: 10%;
-    top: 43%;
+    top: 40%;
     transform: translateY(-50%);
     width: 35%;
     vertical-align: middle;

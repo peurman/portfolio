@@ -73,21 +73,20 @@ $quinary-color: #f6b6b6;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    padding: 10px 18px;
     background: $primary-color;
     border: none;
     margin-top: 25px;
     float: left;
     border-radius: 5px;
     white-space: nowrap;
-    // animation: fadeIn 1s 1.8s backwards;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 0.5s;
     &:hover {
       color: $primary-color;
+      transform: translateY(-3px);
       border: none;
       background: #e6e6e6;
-      transition: 0.7s;
+      transition: 0.5s;
     }
   }
 }
