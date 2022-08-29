@@ -29,6 +29,7 @@ $quinary-color: #f6b6b6;
     position: relative;
     flex: 1 1 50%;
     height: 100px;
+    margin-bottom: 10px;
     overflow: hidden;
     border-radius: 10px;
     max-width: calc(20% - 10px);
@@ -41,15 +42,19 @@ $quinary-color: #f6b6b6;
       object-fit: contain;
     }
     .content {
+      // width: 57px;
+      padding: 0;
+      margin: 0;
       display: flex;
       justify-content: center;
       .title {
+        width: 100%;
         margin-bottom: 0;
         margin-top: 65px;
         color: $quinary-color;
         font-size: 15px;
         font-weight: 400;
-        text-shadow: 0.5px 0.5px #000000;
+        // text-shadow: 0.5px 0.5px #000000;
       }
     }
   }
@@ -73,8 +78,8 @@ $quinary-color: #f6b6b6;
         // width: 100%;
         .title {
           // top: 0;
-          margin-top: 53px;
-          font-size: calc(10% + 1.3vw);
+          margin-top: 55px;
+          font-size: calc(10% + 2.1vw);
         }
       }
     }
