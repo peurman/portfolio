@@ -93,6 +93,11 @@ $quinary-color: #f6b6b6;
       }
     }
 
+    a.skills-link {
+      &:after {
+        content: 'SKILLS';
+      }
+    }
     a.portfolio-link {
       &:after {
         content: 'PORTFOLIO';

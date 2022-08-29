@@ -1,0 +1,48 @@
+{
+  "skills": [
+    {
+      "img": "/skills/JS.png",
+      "name": "Javascript"
+    },
+    {
+      "img": "/skills/HTML.png",
+      "name": "HTML"
+    },
+    {
+      "img": "/skills/CSS.png",
+      "name": "CSS"
+    },
+    {
+      "img": "/skills/SASS.png",
+      "name": "SASS"
+    },
+    {
+      "img": "/skills/REACT.png",
+      "name": "React"
+    },
+    {
+      "img": "/skills/REDUX.png",
+      "name": "Redux"
+    },
+    {
+      "img": "/skills/BOOTSTRAP.png",
+      "name": "Bootstrap"
+    },
+    {
+      "img": "/skills/NODEJS.png",
+      "name": "NodeJS"
+    },
+    {
+      "img": "/skills/SEQUELIZE.png",
+      "name": "Sequelize"
+    },
+    {
+      "img": "/skills/EXPRESS.png",
+      "name": "Express"
+    },
+    {
+      "img": "/skills/POSTGRESQL.png",
+      "name": "PostgreSQL"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import Swal from 'sweetalert2'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -27,11 +28,24 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          // alert('Message successfully sent!')
+          Swal.fire(
+            'Message successfully sent!',
+            'Thanks for contacting me!',
+            'success'
+          ).then((result) => {
+            if (result.isConfirmed) {
+              window.location.reload(false)
+            }
+          })
         },
         () => {
-          alert('Failed to send the message, please try again')
+          // alert('Failed to send the message, please try again')
+          Swal.fire({
+            icon: 'error',
+            title: 'Something went wrong!',
+            text: 'Failed to send the message, please try again',
+          })
         }
       )
   }

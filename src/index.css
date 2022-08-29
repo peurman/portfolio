@@ -30,3 +30,59 @@ body {
     overflow: visible;
   }
 }
+
+.swal2-modal {
+  border-radius: 15px;
+  border: none;
+  margin: 20px;
+  /* background-image: url("../../assets/BKG_BookStore.png") */
+  /* background-color: #f6b6b6; */
+}
+.swal2-popup {
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  /* height: 80%; */
+}
+.swal2-title {
+  font-size: 24px;
+  color: black;
+  padding: 5px;
+}
+.swal2-html-container {
+  font-size: 18px;
+  color: black;
+  padding: 8px 0px;
+  margin: 0;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+/*.swal2-icon {
+  width: 3.5em;
+  height: 3.5em;
+  font-size: 2.5em; 
+}
+.swal2-icon-content {
+  background-color: #f6b6b6;
+  font-size: 2.5em;
+}*/
+.swal2-styled.swal2-cancel,
+.swal2-styled.swal2-confirm,
+.swal2-styled.swal2-deny {
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 10px;
+  min-width: 100px;
+  transform: translateY(-3px);
+}
+.swal2-styled.swal2-confirm {
+  color: #ffffff !important;
+  background: #632f2f !important;
+  box-shadow: 0px 0.3px 2px 0px rgba(0, 0, 0, 0.6) !important;
+  color: rgb(246, 243, 239);
+  transition: 0.5s;
+}
+.swal2-styled.swal2-confirm:hover {
+  color: #ffffff !important;
+  background: #3085d6 !important;
+  transition: 0.5s;
+}

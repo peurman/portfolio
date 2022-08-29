@@ -25,6 +25,7 @@
     "react-scripts": "5.0.0",
     "react-vertical-timeline-component": "^3.5.2",
     "sass": "^1.49.9",
+    "sweetalert2": "^11.4.29",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

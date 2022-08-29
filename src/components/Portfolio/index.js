@@ -8,13 +8,9 @@ const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
-
-    return () => {
-      clearTimeout(timer)
-    }
   })
 
   const renderPortfolio = (portfolio) => {
@@ -61,6 +57,12 @@ const Portfolio = () => {
             idx={15}
           />
         </h1>
+        <div className="introPortfolio">
+          <p>
+            These are my projects. I am working on new ones, so I will be
+            continuously updating this section...
+          </p>
+        </div>
         <div className="container-portfolios">
           {renderPortfolio(porftolioData.portfolio)}
         </div>
