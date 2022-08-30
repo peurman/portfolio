@@ -9,6 +9,8 @@ import {
 import 'react-vertical-timeline-component/style.min.css'
 import SchoolIcon from '@material-ui/icons/School'
 import WorkIcon from '@material-ui/icons/Work'
+import { Link } from 'react-router-dom'
+import CV from '../../assets/CV_ENG.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -42,10 +44,13 @@ const About = () => {
           <p>
             If I have to define myself, I'm a very sociable and detail-oriented
             person, a present and delighted father of two beautiful teenagers,
-            sports fanatic, Photoshop enthusiast, and above all persevering!!
+            sports fanatic, Photoshop enthusiast and, above all, undoubtedly
+            persevering!
           </p>
         </div>
-
+        <Link to={CV} target="_blank" className="flat-button2" download>
+          MY RESUME
+        </Link>
         {/* <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">

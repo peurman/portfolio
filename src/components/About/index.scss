@@ -1,6 +1,35 @@
 $primary-color: #f44141;
 $quinary-color: #f6b6b6;
 
+.flat-button2 {
+  position: absolute;
+  left: 22%;
+  top: 72%;
+  opacity: 0;
+  animation: fadeIn 1.5s 2s forwards;
+  color: #e6e6e6;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  background: $primary-color;
+  border: none;
+  margin-top: 25px;
+  float: left;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    color: $primary-color;
+    transform: translateY(-3px);
+    border: none;
+    background: #e6e6e6;
+    transition: 0.5s;
+  }
+}
+
 .stage-cube-cont {
   width: 50%;
   height: 100%;
@@ -35,76 +64,6 @@ $quinary-color: #f6b6b6;
   }
 }
 
-// .cubespinner {
-//   animation-name: spincube;
-//   animation-timing-function: ease-in-out;
-//   animation-iteration-count: infinite;
-//   animation-duration: 12s;
-//   transform-style: preserve-3d;
-//   transform-origin: 100px 100px 0;
-//   margin-left: calc(50% - 100px);
-
-//   div {
-//     position: absolute;
-//     width: 200px;
-//     height: 200px;
-//     border: 1px solid #ccc;
-//     background: rgba(255, 255, 255, 0.4);
-//     text-align: center;
-//     font-size: 100px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     box-shadow: 0 0 20px 0px lightyellow;
-//   }
-
-//   .face1 {
-//     transform: translateZ(100px);
-//     color: #dd0031;
-//   }
-//   .face2 {
-//     transform: rotateY(90deg) translateZ(100px);
-//     color: #f06529;
-//   }
-//   .face3 {
-//     transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-//     color: #28a4d9;
-//   }
-//   .face4 {
-//     transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-//     color: #5ed4f4;
-//   }
-//   .face5 {
-//     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-//     color: #efd81d;
-//   }
-//   .face6 {
-//     transform: rotateX(-90deg) translateZ(100px);
-//     color: #ec4d28;
-//   }
-// }
-
-// @keyframes spincube {
-//   from,
-//   to {
-//     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-//   }
-//   16% {
-//     transform: rotateY(-90deg) rotateZ(90deg);
-//   }
-//   33% {
-//     transform: rotateY(-90deg) rotateX(90deg);
-//   }
-//   50% {
-//     transform: rotateY(-180deg) rotateZ(90deg);
-//   }
-//   66% {
-//     transform: rotateY(-270deg) rotateX(90deg);
-//   }
-//   83% {
-//     transform: rotateX(90deg);
-//   }
-// }
 .vertical-timeline.vertical-timeline--two-columns {
   width: 90%;
   padding: 15px 0px 10px 0px;

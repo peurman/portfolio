@@ -9,6 +9,16 @@ $quinary-color: #f6b6b6;
     transform: translateY(-40%);
     width: 50%;
     max-height: 90%;
+    img {
+      margin-left: 0px;
+      margin-top: 10px;
+      opacity: 0;
+      width: 350px;
+      height: auto;
+      // animation: rotateIn 1s linear both;
+      // animation-delay: 1s;
+      animation: fadeIn 1s 1.7s forwards;
+    }
   }
 
   h1 {
@@ -42,20 +52,11 @@ $quinary-color: #f6b6b6;
     //   animation: fadeIn 1s 1.7s backwards;
     //   opacity: 0.6;
     // }
-
-    img {
-      margin-left: 20px;
-      opacity: 0;
-      width: 32px;
-      height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
-    }
   }
 
   h2 {
     color: $quinary-color;
-    margin-top: 20px;
+    margin-top: 15px;
     font-weight: 500;
     font-size: 12px;
     font-family: sans-serif;
@@ -89,6 +90,9 @@ $quinary-color: #f6b6b6;
       transition: 0.5s;
     }
   }
+  .container-links {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -100,9 +104,10 @@ $quinary-color: #f6b6b6;
 
   .home-page .text-zone {
     position: initial;
+    // margin-left: 15px;
     width: 100%;
     transform: none;
-    padding: 10px;
+    padding: 10px 20px;
     box-sizing: border-box;
   }
 
@@ -110,6 +115,7 @@ $quinary-color: #f6b6b6;
     float: none;
     display: block;
     margin: 20px auto 0 auto;
+    // margin-left: 15px;
     width: 124px;
   }
 
@@ -131,5 +137,36 @@ $quinary-color: #f6b6b6;
     bottom: auto;
     left: 0;
     margin: auto;
+  }
+  .home-page .container-links {
+    display: flex;
+    opacity: 0;
+    animation: fadeIn 1.5s 4.3s forwards;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      margin-top: 20px;
+
+      li {
+        a {
+          padding: 7px 0;
+          display: block;
+          font-size: 28px;
+          line-height: 16px;
+          color: #4d4d4e;
+        }
+
+        &:hover {
+          .anchor-icon {
+            color: $primary-color;
+          }
+        }
+      }
+    }
   }
 }

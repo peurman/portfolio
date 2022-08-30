@@ -140,7 +140,10 @@ $primary-color: #f44141;
         box-sizing: border-box;
       }
     }
-
+    &.contact-page .text-zone p {
+      margin: 10px 0;
+      line-height: 22px;
+    }
     &.portfolio-page {
       width: 100%;
       padding: 20px;
@@ -170,7 +173,13 @@ $primary-color: #f44141;
       }
     }
   }
+  .flat-button2 {
+    position: initial;
+    margin-top: -19px;
+    margin-left: 35%;
+  }
   .stage-cube-cont {
+    margin-top: 30px;
     position: initial;
     width: 100%;
     height: 0%;

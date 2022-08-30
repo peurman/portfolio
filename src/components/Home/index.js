@@ -2,9 +2,17 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
+import YO from '../../assets/images/YO.png'
 // import LogoTitle from '../../assets/images/logo-s.png'
 // import Logo from './Logo'
 import './index.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLinkedin,
+  faGithub,
+  faInstagram,
+  faSkype,
+} from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -14,22 +22,17 @@ const Home = () => {
       setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
-
+  let color1 = '#e6e6e6'
+  let color2 = '#f44141'
   return (
     <>
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <span className="text-animate _1">Hi!</span>
-            {/* <span className={`${letterClass} _12`}>i!</span> */}
+            <span className={`${letterClass} _1`}>Hi!</span>
             <br />
-            <span className={`text-animate _13`}>I'm</span>
+            <span className={`${letterClass} _13`}>I'm</span>
             <br />
-            {/* <span className={`${letterClass} _14`}>'m</span> */}
-            {/* <img
-              src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
-            /> */}
             <AnimatedLetters
               letterClass={`${letterClass} _name`}
               strArray={'Esteban Manrupe'.split()}
@@ -42,14 +45,72 @@ const Home = () => {
               idx={27}
             />
           </h1>
+          <div className="container-me">
+            <img src={YO} alt="Esteban Manrupe, Web Developer" />
+          </div>
           <h2>Full Stack Web Developer / Front End Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
         {/* <Logo /> */}
+        <div className="container-links">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/estebanmanrupe/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  color={color1}
+                  className="anchor-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/peurman"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  color={color1}
+                  className="anchor-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/peurman77"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  color={color1}
+                  className="anchor-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="skype:live:esteban_manrupe"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faSkype}
+                  color={color1}
+                  className="anchor-icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>{' '}
       </div>
-
       <Loader type="ball-rotate" />
     </>
   )
