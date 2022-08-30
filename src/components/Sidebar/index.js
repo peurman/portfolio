@@ -1,7 +1,7 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import Logo from '../../assets/images/logoEM.jpg'
+import Logo from '../../assets/images/logoEM.png'
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
