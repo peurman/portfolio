@@ -1,6 +1,7 @@
 import './index.scss'
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
-// import LogoS from '../../assets/images/logo-s.png'
+import Logo from '../../assets/images/logoEM.jpg'
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -18,7 +19,7 @@ import {
   faClose,
   faToolbox,
 } from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false)
@@ -26,10 +27,10 @@ const Sidebar = () => {
   let color2 = '#f44141'
   return (
     <div className="nav-bar">
-      {/* <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
-      </Link> */}
+      <Link className="logo" to="/" onClick={() => setShowNav(false)}>
+        <img src={Logo} alt="Logo" />
+        {/* <img className="sub-logo" src={LogoSubtitle} alt="slobodan" /> */}
+      </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
           exact="true"
