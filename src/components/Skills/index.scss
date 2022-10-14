@@ -42,7 +42,6 @@ $quinary-color: #f6b6b6;
       object-fit: contain;
     }
     .content {
-      // width: 57px;
       padding: 0;
       margin: 0;
       display: flex;
@@ -54,7 +53,6 @@ $quinary-color: #f6b6b6;
         color: $quinary-color;
         font-size: 15px;
         font-weight: 400;
-        // text-shadow: 0.5px 0.5px #000000;
       }
     }
   }
@@ -62,22 +60,9 @@ $quinary-color: #f6b6b6;
 
 @media screen and (max-width: 1080px) {
   .skills-page {
-    // .images-container {
-    //   display: flex;
-    //   flex-direction: row;
-    //   flex-wrap: wrap;
-    //   padding: 0px;
-    //   width: 100%;
-    // }
     .image-box {
-      // flex: 1 1 50%;
       .content {
-        // position: relative;
-        // top: 0;
-        // height: 80px;
-        // width: 100%;
         .title {
-          // top: 0;
           margin-top: 55px;
           font-size: calc(10% + 2.1vw);
         }

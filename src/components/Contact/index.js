@@ -28,7 +28,6 @@ const Contact = () => {
       )
       .then(
         () => {
-          // alert('Message successfully sent!')
           Swal.fire(
             'Message successfully sent!',
             'Thanks for contacting me!',

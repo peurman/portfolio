@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import YO from '../../assets/images/YO.png'
-// import LogoTitle from '../../assets/images/logo-s.png'
-// import Logo from './Logo'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -48,12 +46,11 @@ const Home = () => {
           <div className="container-me">
             <img src={YO} alt="Esteban Manrupe, Web Developer" />
           </div>
-          <h2>Full Stack Web Developer / Front End Developer</h2>
+          <h2>Front End Developer / Full Stack Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
-        {/* <Logo /> */}
         <div className="container-links">
           <ul>
             <li>

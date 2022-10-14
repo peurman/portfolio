@@ -54,31 +54,6 @@ $primary-color: #f44141;
     position: relative;
     margin-bottom: -10px;
     left: -10px;
-
-    // &:before {
-    //   content: '<h1>';
-    //   font-family: 'La Belle Aurore', cursive;
-    //   color: $primary-color;
-    //   font-size: 18px;
-    //   position: absolute;
-    //   margin-top: -10px;
-    //   left: -10px;
-    //   opacity: 0.6;
-    //   line-height: 18px;
-    // }
-
-    // &:after {
-    //   content: '<h1/>';
-    //   font-family: 'La Belle Aurore', cursive;
-    //   color: $primary-color;
-    //   font-size: 18px;
-    //   line-height: 18px;
-    //   position: absolute;
-    //   left: -30px;
-    //   bottom: -20px;
-    //   margin-left: 20px;
-    //   opacity: 0.6;
-    // }
   }
 
   p {
@@ -169,7 +144,6 @@ $primary-color: #f44141;
       }
       .image-box {
         height: 80px;
-        // max-width: calc(30% - 10px);
       }
     }
   }
