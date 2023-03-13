@@ -39,7 +39,6 @@ const Contact = () => {
           })
         },
         () => {
-          // alert('Failed to send the message, please try again')
           Swal.fire({
             icon: 'error',
             title: 'Something went wrong!',
@@ -62,8 +61,7 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in working in a company where I feel challenged,
-            being able to develope professionally as a <i>web developer</i> or{' '}
-            <i>full stack developer.</i>
+            being able to develope professionally as a <i>web developer</i>
           </p>
           <p>
             If you wish to contact me, if you have any questions or suggestions,

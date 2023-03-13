@@ -5,6 +5,10 @@
       "name": "Javascript"
     },
     {
+      "img": "/skills/TYPESCRIPT.png",
+      "name": "Typescript"
+    },
+    {
       "img": "/skills/HTML.png",
       "name": "HTML"
     },
@@ -15,6 +19,10 @@
     {
       "img": "/skills/SASS.png",
       "name": "SASS"
+    },
+    {
+      "img": "/skills/Angular.png",
+      "name": "Angular"
     },
     {
       "img": "/skills/REACT.png",

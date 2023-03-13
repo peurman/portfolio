@@ -33,19 +33,22 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a front-end developer looking for a role in an growing IT
-            company, having the opportunity to work with the latest
-            technologies, on challenging and diverse projects.
-          </p>
-          <p align="LEFT">
-            I'm confident, strongly commited with continous learning , and
-            always working on improving my skills, tech and soft ones.
+            I'm a front-end developer, currently working as an Angular
+            developer, listening to job opportunities in an IT company with
+            challenging and diverse projects.
           </p>
           <p>
-            If I have to define myself, I'm a very sociable and detail-oriented
-            person, a present and delighted father of two beautiful teenagers,
-            sports fanatic, Photoshop enthusiast and, above all, undoubtedly
-            persevering!
+            I'm confident, strongly committed to lifelong learning, meticulous,
+            with keen eye for details. Hands-on and goals-oriented, with an
+            analytical profile. Team player and team leader.
+          </p>
+          <p>Always working on improving my skills, tech and soft ones.</p>
+          <p>
+            If I have to define myself in a few sentences, it would by like...
+            Sociable, positive and detail-oriented. Present and delighted father
+            of two beautiful teenagers. Amateur multisport player. Modest
+            drummer. Initial level singer. Passionate about music. Photoshop
+            enthusiast and, above all, undoubtedly persevering!
           </p>
         </div>
         <Link to={CV} target="_blank" className="flat-button2" download>
@@ -55,7 +58,31 @@ const About = () => {
           <VerticalTimeline lineColor="#f6b6b6">
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="Jun-2022 - Ago-2022"
+              date="Mar-2023 - present"
+              iconStyle={{ background: '#f6b6b6' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Applaudo</h3>
+              <p id="degree"> Angular developer</p>
+              <h4 className="vertical-timeline-element-subtitle">
+                Angular frontend developer
+              </h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="Dec-2022 - Feb-2023"
+              iconStyle={{ background: '#f44141' }}
+              icon={<SchoolIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Applaudo</h3>
+              <p id="degree">Angular Trainee Program</p>
+              <h4 className="vertical-timeline-element-subtitle">
+                3-month Trainee Program
+              </h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jun-2022 - Aug-2022"
               iconStyle={{ background: '#f6b6b6' }}
               icon={<WorkIcon />}
             >
@@ -68,7 +95,7 @@ const About = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="Abr-2022 - Ago-2022"
+              date="Apr-2022 - Aug-2022"
               iconStyle={{ background: '#f44141' }}
               icon={<SchoolIcon />}
             >
@@ -80,7 +107,7 @@ const About = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="Dic-2016 - Mar-2022"
+              date="Dec-2016 - Mar-2022"
               iconStyle={{ background: '#f6b6b6' }}
               icon={<WorkIcon />}
             >

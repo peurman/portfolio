@@ -43,9 +43,8 @@ const Skills = () => {
         </h1>
         <div className="introSkills">
           <p>
-            These are my current technical skills. I'm always committed to
-            continuous learning, so I've already started learning and using{' '}
-            <b>Typescript</b> and <b>React Native</b>...
+            These are my technical skills, recently adding{' '}
+            <b>Angular-Typescript</b> projects...
           </p>
         </div>
         <div className="container-skills">
