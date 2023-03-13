@@ -15,8 +15,6 @@ $quinary-color: #f6b6b6;
       opacity: 0;
       width: 350px;
       height: auto;
-      // animation: rotateIn 1s linear both;
-      // animation-delay: 1s;
       animation: fadeIn 1s 1.7s forwards;
     }
   }
@@ -29,29 +27,6 @@ $quinary-color: #f6b6b6;
     font-family: 'kanitregular';
     letter-spacing: 1px;
     font-weight: 600;
-
-    // &:before {
-    //   content: '<h1>';
-    //   font-family: 'La Belle Aurore', cursive;
-    //   color: $primary-color;
-    //   font-size: 18px;
-    //   position: absolute;
-    //   margin-top: -40px;
-    //   left: -15px;
-    //   opacity: 0.6;
-    // }
-
-    // &:after {
-    //   content: '<h1/>';
-    //   font-family: 'La Belle Aurore', cursive;
-    //   color: $primary-color;
-    //   font-size: 18px;
-    //   position: absolute;
-    //   margin-top: 18px;
-    //   margin-left: 20px;
-    //   animation: fadeIn 1s 1.7s backwards;
-    //   opacity: 0.6;
-    // }
   }
 
   h2 {
@@ -104,7 +79,6 @@ $quinary-color: #f6b6b6;
 
   .home-page .text-zone {
     position: initial;
-    // margin-left: 15px;
     width: 100%;
     transform: none;
     padding: 10px 20px;
@@ -115,7 +89,6 @@ $quinary-color: #f6b6b6;
     float: none;
     display: block;
     margin: 20px auto 0 auto;
-    // margin-left: 15px;
     width: 124px;
   }
 

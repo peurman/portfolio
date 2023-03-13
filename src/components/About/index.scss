@@ -34,7 +34,6 @@ $quinary-color: #f6b6b6;
   width: 50%;
   height: 100%;
   top: 0;
-  // padding-top: 9%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -43,22 +42,18 @@ $quinary-color: #f6b6b6;
   animation-delay: 2.5s;
   overflow: scroll;
   overflow-x: hidden;
-  /* width */
   &::-webkit-scrollbar {
     width: 12px;
     border-radius: 3px;
   }
-  /* Track */
   &::-webkit-scrollbar-track {
     background: #654a4a;
     border-radius: 3px;
   }
-  /* Handle */
   &::-webkit-scrollbar-thumb {
     background: #f6b6b6;
     border-radius: 3px;
   }
-  /* Handle on hover */
   &::-webkit-scrollbar-thumb:hover {
     background: #f6b6b6;
   }

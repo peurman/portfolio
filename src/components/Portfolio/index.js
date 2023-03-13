@@ -59,8 +59,8 @@ const Portfolio = () => {
         </h1>
         <div className="introPortfolio">
           <p>
-            These are my projects. I am working on new ones, so I will be
-            continuously updating this section...
+            These are some of my projects. I am working on new ones, so I will
+            be continuously updating this section...
           </p>
         </div>
         <div className="container-portfolios">
