@@ -10,7 +10,7 @@ import 'react-vertical-timeline-component/style.min.css'
 import SchoolIcon from '@material-ui/icons/School'
 import WorkIcon from '@material-ui/icons/Work'
 import { Link } from 'react-router-dom'
-import CV from '../../assets/CV_ENG.pdf'
+import CV from '../../assets/Esteban_Manrupe_Resume.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -33,7 +33,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a front-end developer, currently working as an Angular
+            I'm a web developer, currently working as an Angular
             developer, listening to job opportunities in an IT company with
             challenging and diverse projects.
           </p>
