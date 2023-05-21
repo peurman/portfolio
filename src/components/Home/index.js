@@ -81,7 +81,7 @@ const Home = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/peurman77"
+                href="https://www.instagram.com/peurman"
                 rel="noreferrer"
                 target="_blank"
               >

@@ -45,9 +45,9 @@ const About = () => {
           <p>Always working on improving my skills, tech and soft ones.</p>
           <p>
             If I have to define myself in a few sentences, it would by like...
-            Sociable, positive and detail-oriented. Present and delighted father
-            of two beautiful teenagers. Amateur multisport player. Modest
-            drummer. Initial level singer. Passionate about music. Photoshop
+            Sociable, positive and detail-oriented. Delighted and always present father
+            of two beautiful teenagers. Amateur multisportsman. Modest
+            drummer. Beginner level singer. Passionate about music. Photoshop
             enthusiast and, above all, undoubtedly persevering!
           </p>
         </div>
