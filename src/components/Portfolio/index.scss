@@ -36,6 +36,7 @@ $quinary-color: #f6b6b6;
     height: 400px;
     overflow: hidden;
     border-radius: 10px;
+    min-width: 290px;
     max-width: calc(40% - 10px);
 
     .portfolio-image {
@@ -122,18 +123,16 @@ $quinary-color: #f6b6b6;
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
   .portfolio-page {
     .container-portfolios {
       display: flex;
       justify-content: center;
       align-items: center;
       align-content: center;
-      min-width: 650px;
     }
     .images-container {
       display: flex;
-      flex-direction: column;
       flex-wrap: wrap;
       height: 500px;
       padding: 20px;

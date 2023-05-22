@@ -80,10 +80,13 @@ $primary-color: #f44141;
     left: 10%;
     top: 40%;
     transform: translateY(-50%);
-    width: 35%;
+    width: 80%;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+  }
+  .text-zone-narrow {
+    width: 40%;
   }
 
   .text-animate-hover {
@@ -93,7 +96,7 @@ $primary-color: #f44141;
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
   .page {
     position: initial;
   }
@@ -109,10 +112,14 @@ $primary-color: #f44141;
       .text-zone {
         position: initial;
         transform: none;
-        width: 100%;
+        width: 95%;
         display: block;
         padding: 20px;
         box-sizing: border-box;
+      }
+      &.contact-page .contact-form {
+        width: 80vw;
+        min-width: 300px;
       }
     }
     &.contact-page .text-zone p {
