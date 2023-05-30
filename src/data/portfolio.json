@@ -1,6 +1,14 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/ANGULAR_SPOTIFY_img.png",
+      "title": "ANGULAR SPOTIFY",
+      "description": "Angular, ngRx, Typescript, SASS, Karma Jasmine, Sweetalert2",
+      "deploy": "https://final-project-spotify-applaudo.vercel.app/",
+      "repo": "https://github.com/peurman/angular-spotify-project",
+      "video": "https://youtu.be/QusSaHbhKKg"
+    },
+    {
       "cover": "/portfolio/COUNTRIES_img.png",
       "title": "COUNTRIES",
       "description": "React, Redux, Vanilla CSS, NodeJS, Express, Sequelize, PostgreSQL",
