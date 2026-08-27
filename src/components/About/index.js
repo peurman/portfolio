@@ -33,23 +33,23 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a frontend developer with 5+ years of experience building React
+            I'm a Frontend Developer with 5+ years of experience building React
             applications, primarily for US-based clients in remote settings.
             I'm currently a Senior Frontend Developer at Modernize.
           </p>
           <p>
-            I'm confident, strongly committed to lifelong learning, meticulous,
-            with keen eye for details. Hands-on and goals-oriented, with an
-            analytical profile. Team player and team leader.
+            I enjoy collaborating closely with teams, proactively jumping in
+            where needed, sharing what I know, and sweating the details on UI
+            and UX until things feel just right.
           </p>
           <p>
-            I enjoy collaborating closely with teams, jumping in where needed,
-            sharing what I know, and sweating the details on UI and UX until
-            things feel just right. I use AI-assisted development tools (Cursor,
-            Claude, Amazon Q) as part of my daily workflow.
+            I have a background in Electronic Engineering and team leadership,
+            and I use AI-assisted development tools (Cursor, Claude, Amazon Q)
+            as part of my daily workflow. Analytical, meticulous, hands-on and
+            goals-oriented, and strongly committed to lifelong learning.
           </p>
           <p>
-            If I have to define myself in a few sentences, it would by like...
+            If I have to define myself in a few sentences, it would be like...
             Sociable, positive and detail-oriented. Delighted and always present father
             of two beautiful teenagers. Amateur multisportsman. Modest
             drummer. Beginner level singer. Passionate about music. Photoshop
@@ -78,7 +78,7 @@ const About = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Dec-2024 - Dec-2025"
-              iconStyle={{ background: '#f6b6b6' }}
+              iconStyle={{ background: '#f44141' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -111,7 +111,7 @@ const About = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="Jun-2023 - Aug-2023"
-              iconStyle={{ background: '#f6b6b6' }}
+              iconStyle={{ background: '#f44141' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
