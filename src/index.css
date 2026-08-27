@@ -1,5 +1,12 @@
 html {
   font-size: 62.5%;
+  min-height: 100vh;
+  background: #654a4a;
+  background: linear-gradient(
+    90deg,
+    rgba(101, 74, 74, 1) 0%,
+    rgba(101, 74, 74, 0.7332090062587535) 100%
+  );
 }
 
 body {
