@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 $primary-color: #f44141;
 $quinary-color: #f6b6b6;
 
@@ -31,7 +33,7 @@ $quinary-color: #f6b6b6;
 
 @for $i from 1 through 60 {
   .text-animate._#{$i} {
-    animation-delay: #{$i / 10}s;
+    animation-delay: #{math.div($i, 10)}s;
   }
 }
 
