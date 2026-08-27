@@ -18,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     return setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
+    }, 5000)
   }, [])
   let color1 = '#e6e6e6'
   // let color2 = '#f44141'
