@@ -1,6 +1,12 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/COMO_VAMOS_img.png",
+      "title": "CÓMO VAMOS",
+      "description": "React Native, Expo, TypeScript, NativeWind, Zustand, React Navigation, Reanimated",
+      "repo": "https://github.com/peurman/como-vamos-mobile-app"
+    },
+    {
       "cover": "/portfolio/ANGULAR_SPOTIFY_img.png",
       "title": "ANGULAR SPOTIFY",
       "description": "Angular, ngRx, Typescript, SASS, Karma Jasmine, Sweetalert2",
