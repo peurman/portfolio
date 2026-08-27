@@ -1,12 +1,24 @@
 {
   "skills": [
     {
-      "img": "/skills/JS.png",
-      "name": "Javascript"
+      "img": "/skills/REACT.png",
+      "name": "React"
     },
     {
       "img": "/skills/TYPESCRIPT.png",
       "name": "Typescript"
+    },
+    {
+      "img": "/skills/ANGULAR.png",
+      "name": "Angular"
+    },
+    {
+      "img": "/skills/VUE.svg",
+      "name": "Vue"
+    },
+    {
+      "img": "/skills/JS.png",
+      "name": "Javascript"
     },
     {
       "img": "/skills/HTML.png",
@@ -21,36 +33,52 @@
       "name": "SASS"
     },
     {
-      "img": "/skills/ANGULAR.png",
-      "name": "Angular"
+      "img": "/skills/TAILWIND.svg",
+      "name": "Tailwind"
     },
     {
-      "img": "/skills/REACT.png",
-      "name": "React"
+      "img": "/skills/MUI.svg",
+      "name": "MUI"
     },
     {
       "img": "/skills/REDUX.png",
       "name": "Redux"
     },
     {
-      "img": "/skills/BOOTSTRAP.png",
-      "name": "Bootstrap"
+      "img": "/skills/NGRX.svg",
+      "name": "NgRx"
+    },
+    {
+      "img": "/skills/RXJS.svg",
+      "name": "RxJS"
     },
     {
       "img": "/skills/NODEJS.png",
       "name": "NodeJS"
     },
     {
-      "img": "/skills/SEQUELIZE.png",
-      "name": "Sequelize"
-    },
-    {
       "img": "/skills/EXPRESS.png",
       "name": "Express"
     },
     {
+      "img": "/skills/SEQUELIZE.png",
+      "name": "Sequelize"
+    },
+    {
+      "img": "/skills/DOCKER.svg",
+      "name": "Docker"
+    },
+    {
+      "img": "/skills/MYSQL.svg",
+      "name": "MySQL"
+    },
+    {
       "img": "/skills/POSTGRESQL.png",
       "name": "PostgreSQL"
+    },
+    {
+      "img": "/skills/GIT.svg",
+      "name": "Git"
     }
   ]
 }

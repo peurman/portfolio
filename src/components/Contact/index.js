@@ -61,7 +61,7 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in working in a company where I feel challenged,
-            being able to develope professionally as a <i>web developer</i>
+            being able to grow professionally as a <i>frontend developer</i>
           </p>
           <p>
             If you wish to contact me, if you have any questions or suggestions,

@@ -43,8 +43,8 @@ const Skills = () => {
         </h1>
         <div className="introSkills">
           <p>
-            These are my technical skills, recently adding{' '}
-            <b>Angular-Typescript</b> projects...
+            These are my technical skills, focused on <b>React</b> and{' '}
+            <b>TypeScript</b> for building modern web apps.
           </p>
         </div>
         <div className="container-skills">

@@ -4,7 +4,7 @@
 
 ### Hi there!👋
 
-My name is **`ESTEBAN MANRUPE`**, a reskilled **electronic engineer** now working as a **`Angular FrontEnd Developer`**.
+My name is **`ESTEBAN MANRUPE`**, a reskilled **electronic engineer** now working as a **`Frontend Developer`** (React).
 <br>
 
 Welcome to my **Portfolio**, built with **`React`** (**_Javascript_**), along with other libraries and tools such as:

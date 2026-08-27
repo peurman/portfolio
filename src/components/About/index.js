@@ -33,18 +33,23 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a web developer, currently working as an Angular
-            developer, listening to job opportunities in an IT company with
-            challenging and diverse projects.
+            I'm a Frontend Developer with 5+ years of experience building React
+            applications, primarily for US-based clients in remote settings.
+            I'm currently a Senior Frontend Developer at Modernize.
           </p>
           <p>
-            I'm confident, strongly committed to lifelong learning, meticulous,
-            with keen eye for details. Hands-on and goals-oriented, with an
-            analytical profile. Team player and team leader.
+            I enjoy collaborating closely with teams, proactively jumping in
+            where needed, sharing what I know, and sweating the details on UI
+            and UX until things feel just right.
           </p>
-          <p>Always working on improving my skills, tech and soft ones.</p>
           <p>
-            If I have to define myself in a few sentences, it would by like...
+            I have a background in Electronic Engineering and team leadership,
+            and I use AI-assisted development tools (Cursor, Claude, Amazon Q)
+            as part of my daily workflow. Analytical, meticulous, hands-on and
+            goals-oriented, and strongly committed to lifelong learning.
+          </p>
+          <p>
+            If I have to define myself in a few sentences, it would be like...
             Sociable, positive and detail-oriented. Delighted and always present father
             of two beautiful teenagers. Amateur multisportsman. Modest
             drummer. Beginner level singer. Passionate about music. Photoshop
@@ -58,14 +63,79 @@ const About = () => {
           <VerticalTimeline lineColor="#f6b6b6">
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="Mar-2023 - present"
+              date="Jan-2026 - present"
+              iconStyle={{ background: '#f6b6b6' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Modernize</h3>
+              <p id="degree"> Senior Frontend Developer</p>
+              <h4 className="vertical-timeline-element-subtitle">
+                Resolving UI tickets on a large-scale project across 6
+                cross-functional teams, and acting as UI Specialist building
+                shared components adopted across the whole project.
+              </h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Dec-2024 - Dec-2025"
+              iconStyle={{ background: '#f44141' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                The Tapping Solution
+              </h3>
+              <p id="degree"> Frontend Developer</p>
+              <h4 className="vertical-timeline-element-subtitle">
+                Led frontend development of a greenfield web app porting a
+                production iOS/Android product to React + TypeScript. Integrated
+                RevenueCat & Stripe, Algolia, Amplitude & Braze. Built UI with
+                Tailwind, MUI, Zustand and React Hook Form.
+              </h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Sep-2023 - Nov-2024"
+              iconStyle={{ background: '#f6b6b6' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Digital Executive
+              </h3>
+              <p id="degree"> Frontend UI Developer</p>
+              <h4 className="vertical-timeline-element-subtitle">
+                Translated Figma designs into responsive, pixel-perfect React
+                components with Tailwind, ensuring accessibility and
+                cross-browser compatibility.
+              </h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jun-2023 - Aug-2023"
+              iconStyle={{ background: '#f44141' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Aconcagua Software
+              </h3>
+              <p id="degree"> React Frontend Developer</p>
+              <h4 className="vertical-timeline-element-subtitle">
+                Integrated a biometric recognition system (facial and
+                fingerprint) into a React app, and contributed to a Vue project
+                unifying table styling.
+              </h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Nov-2022 - May-2023"
               iconStyle={{ background: '#f6b6b6' }}
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Applaudo</h3>
-              <p id="degree"> Angular developer</p>
+              <p id="degree"> Angular Frontend Developer</p>
               <h4 className="vertical-timeline-element-subtitle">
-                Angular frontend developer
+                Developed and maintained Angular applications: feature
+                development, bug resolution and timely delivery across multiple
+                projects.
               </h4>
             </VerticalTimelineElement>
             <VerticalTimelineElement
