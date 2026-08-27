@@ -29,7 +29,7 @@ $quinary-color: #f6b6b6;
   }
 }
 
-@for $i from 1 through 40 {
+@for $i from 1 through 60 {
   .text-animate._#{$i} {
     animation-delay: #{$i / 10}s;
   }
