@@ -139,9 +139,14 @@ $quinary-color: #f6b6b6;
   }
 }
 
-.hamburger-icon,
-.close-icon {
+.hamburger-icon-button,
+.close-icon-button {
   display: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
 }
 
 @media screen and (max-width: 768px) {
@@ -194,8 +199,8 @@ $quinary-color: #f6b6b6;
       }
     }
 
-    .hamburger-icon,
-    .close-icon {
+    .hamburger-icon-button,
+    .close-icon-button {
       position: absolute;
       top: 15px;
       right: 15px;

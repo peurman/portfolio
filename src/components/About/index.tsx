@@ -46,15 +46,15 @@ const About = () => {
           <p>
             I have a background in Electronic Engineering and team leadership,
             and I use AI-assisted development tools (Cursor, Claude, Amazon Q)
-            as part of my daily workflow. Analytical, meticulous, hands-on and
-            goals-oriented, and strongly committed to lifelong learning.
+            as part of my daily workflow. I'm analytical, meticulous, hands-on
+            and goal-oriented, and strongly committed to lifelong learning.
           </p>
           <p>
-            If I have to define myself in a few sentences, it would be like...
-            Sociable, positive and detail-oriented. Delighted and always present father
-            of two beautiful teenagers. Amateur multisportsman. Modest
-            drummer. Beginner level singer. Passionate about music. Photoshop
-            enthusiast and, above all, undoubtedly persevering!
+            If I had to describe myself in a few words: sociable, positive, and
+            a stickler for detail. A present, hands-on father of two beautiful
+            teenagers, an amateur at several sports, a modest drummer and a
+            beginner singer — passionate about music. A Photoshop enthusiast
+            and, above all, undoubtedly persevering.
           </p>
         </div>
         <Link to={CV} target="_blank" className="flat-button2" download>
@@ -69,7 +69,7 @@ const About = () => {
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
               <h3 className="vertical-timeline-element-title">Modernize</h3>
-              <p id="degree"> Senior Frontend Developer</p>
+              <p className="degree"> Senior Frontend Developer</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Resolving UI tickets on a large-scale project across 6
                 cross-functional teams, and acting as UI Specialist building
@@ -85,7 +85,7 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 The Tapping Solution
               </h3>
-              <p id="degree"> Frontend Developer</p>
+              <p className="degree"> Frontend Developer</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Led frontend development of a greenfield web app porting a
                 production iOS/Android product to React + TypeScript. Integrated
@@ -102,7 +102,7 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 Digital Executive
               </h3>
-              <p id="degree"> Frontend UI Developer</p>
+              <p className="degree"> Frontend UI Developer</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Translated Figma designs into responsive, pixel-perfect React
                 components with Tailwind, ensuring accessibility and
@@ -118,7 +118,7 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 Aconcagua Software
               </h3>
-              <p id="degree"> React Frontend Developer</p>
+              <p className="degree"> React Frontend Developer</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Integrated a biometric recognition system (facial and
                 fingerprint) into a React app, and contributed to a Vue project
@@ -132,7 +132,7 @@ const About = () => {
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
               <h3 className="vertical-timeline-element-title">Applaudo</h3>
-              <p id="degree"> Angular Frontend Developer</p>
+              <p className="degree"> Angular Frontend Developer</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Developed and maintained Angular applications: feature
                 development, bug resolution and timely delivery across multiple
@@ -146,7 +146,7 @@ const About = () => {
               icon={<FontAwesomeIcon icon={faGraduationCap} />}
             >
               <h3 className="vertical-timeline-element-title">Applaudo</h3>
-              <p id="degree">Angular Trainee Program</p>
+              <p className="degree">Angular Trainee Program</p>
               <h4 className="vertical-timeline-element-subtitle">
                 3-month Trainee Program
               </h4>
@@ -158,7 +158,7 @@ const About = () => {
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
               <h3 className="vertical-timeline-element-title">Henry</h3>
-              <p id="degree"> Full-Stack Teaching Assistant</p>
+              <p className="degree"> Full-Stack Teaching Assistant</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Coordinate a group of students. Assist them to solve exercises
                 and promote group collaboration.
@@ -171,7 +171,7 @@ const About = () => {
               icon={<FontAwesomeIcon icon={faGraduationCap} />}
             >
               <h3 className="vertical-timeline-element-title">Henry</h3>
-              <p id="degree"> Full Stack Web Developer</p>
+              <p className="degree"> Full Stack Web Developer</p>
               <h4 className="vertical-timeline-element-subtitle">
                 800-hours Code Bootcamp
               </h4>
@@ -185,7 +185,7 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 Telefonica Movistar
               </h3>
-              <p id="degree"> Team Leader</p>
+              <p className="degree"> Team Leader</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Leader of a 7-member team, supporting operating management
                 areas.
@@ -200,7 +200,7 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 Universidad de Mar del Plata
               </h3>
-              <p id="degree"> University Teaching Assistant</p>
+              <p className="degree"> University Teaching Assistant</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Teaching assistant at a 2nd-year subject of Electronic Engineer
                 career.
@@ -213,7 +213,7 @@ const About = () => {
               icon={<FontAwesomeIcon icon={faGraduationCap} />}
             >
               <h3 className="vertical-timeline-element-title">ESIC Madrid</h3>
-              <p id="degree"> Executive MBA</p>
+              <p className="degree"> Executive MBA</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Ten-month executive MBA in Madrid
               </h4>
@@ -227,7 +227,7 @@ const About = () => {
               <h3 className="vertical-timeline-element-title">
                 Universidad de Mar del Plata
               </h3>
-              <p id="degree"> Electronic Engineer</p>
+              <p className="degree"> Electronic Engineer</p>
               <h4 className="vertical-timeline-element-subtitle">
                 Grade point average: 8.20
               </h4>
