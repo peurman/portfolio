@@ -13,6 +13,10 @@
       "name": "Angular"
     },
     {
+      "img": "/skills/VUE.svg",
+      "name": "Vue"
+    },
+    {
       "img": "/skills/JS.png",
       "name": "Javascript"
     },
@@ -29,8 +33,24 @@
       "name": "SASS"
     },
     {
+      "img": "/skills/TAILWIND.svg",
+      "name": "Tailwind"
+    },
+    {
+      "img": "/skills/MUI.svg",
+      "name": "MUI"
+    },
+    {
       "img": "/skills/REDUX.png",
       "name": "Redux"
+    },
+    {
+      "img": "/skills/NGRX.svg",
+      "name": "NgRx"
+    },
+    {
+      "img": "/skills/RXJS.svg",
+      "name": "RxJS"
     },
     {
       "img": "/skills/NODEJS.png",
@@ -45,8 +65,20 @@
       "name": "Sequelize"
     },
     {
+      "img": "/skills/DOCKER.svg",
+      "name": "Docker"
+    },
+    {
+      "img": "/skills/MYSQL.svg",
+      "name": "MySQL"
+    },
+    {
       "img": "/skills/POSTGRESQL.png",
       "name": "PostgreSQL"
+    },
+    {
+      "img": "/skills/GIT.svg",
+      "name": "Git"
     }
   ]
 }
