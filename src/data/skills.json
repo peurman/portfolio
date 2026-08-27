@@ -1,12 +1,20 @@
 {
   "skills": [
     {
-      "img": "/skills/JS.png",
-      "name": "Javascript"
+      "img": "/skills/REACT.png",
+      "name": "React"
     },
     {
       "img": "/skills/TYPESCRIPT.png",
       "name": "Typescript"
+    },
+    {
+      "img": "/skills/ANGULAR.png",
+      "name": "Angular"
+    },
+    {
+      "img": "/skills/JS.png",
+      "name": "Javascript"
     },
     {
       "img": "/skills/HTML.png",
@@ -21,32 +29,20 @@
       "name": "SASS"
     },
     {
-      "img": "/skills/ANGULAR.png",
-      "name": "Angular"
-    },
-    {
-      "img": "/skills/REACT.png",
-      "name": "React"
-    },
-    {
       "img": "/skills/REDUX.png",
       "name": "Redux"
-    },
-    {
-      "img": "/skills/BOOTSTRAP.png",
-      "name": "Bootstrap"
     },
     {
       "img": "/skills/NODEJS.png",
       "name": "NodeJS"
     },
     {
-      "img": "/skills/SEQUELIZE.png",
-      "name": "Sequelize"
-    },
-    {
       "img": "/skills/EXPRESS.png",
       "name": "Express"
+    },
+    {
+      "img": "/skills/SEQUELIZE.png",
+      "name": "Sequelize"
     },
     {
       "img": "/skills/POSTGRESQL.png",
