@@ -48,7 +48,6 @@ const Home = () => {
           <div className="container-me">
             <img src={YO} alt="Esteban Manrupe, Frontend Developer" />
           </div>
-          <h2>Frontend Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
