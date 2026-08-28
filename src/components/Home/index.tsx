@@ -59,6 +59,7 @@ const Home = () => {
                 href="https://www.linkedin.com/in/estebanmanrupe/"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="LinkedIn"
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
@@ -72,6 +73,7 @@ const Home = () => {
                 href="https://github.com/peurman"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="GitHub"
               >
                 <FontAwesomeIcon
                   icon={faGithub}
@@ -85,6 +87,7 @@ const Home = () => {
                 href="https://www.instagram.com/peurman"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="Instagram"
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
@@ -98,6 +101,7 @@ const Home = () => {
                 href="skype:live:esteban_manrupe"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="Skype"
               >
                 <FontAwesomeIcon
                   icon={faSkype}

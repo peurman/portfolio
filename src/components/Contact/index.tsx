@@ -74,13 +74,20 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input
+                    placeholder="Name"
+                    type="text"
+                    name="name"
+                    aria-label="Name"
+                    required
+                  />
                 </li>
                 <li className="half">
                   <input
                     placeholder="Email"
                     type="email"
                     name="email"
+                    aria-label="Email"
                     required
                   />
                 </li>
@@ -89,6 +96,7 @@ const Contact = () => {
                     placeholder="Subject"
                     type="text"
                     name="subject"
+                    aria-label="Subject"
                     required
                   />
                 </li>
@@ -96,6 +104,7 @@ const Contact = () => {
                   <textarea
                     placeholder="Message"
                     name="message"
+                    aria-label="Message"
                     required
                   ></textarea>
                 </li>

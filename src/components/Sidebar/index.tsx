@@ -26,15 +26,21 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/" onClick={() => setShowNav(false)}>
-        <img src={Logo} alt="Logo" />
+        <img src={Logo} alt="Esteban Manrupe — home" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink end to="/" onClick={() => setShowNav(false)}>
+        <NavLink
+          end
+          to="/"
+          aria-label="Home"
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faHome} color={color1} />
         </NavLink>
         <NavLink
           className="about-link"
           to="/about"
+          aria-label="About"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faUser} color={color1} />
@@ -42,6 +48,7 @@ const Sidebar = () => {
         <NavLink
           className="skills-link"
           to="/skills"
+          aria-label="Skills"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faToolbox} color={color1} />
@@ -49,6 +56,7 @@ const Sidebar = () => {
         <NavLink
           className="portfolio-link"
           to="/portfolio"
+          aria-label="Portfolio"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color={color1} />
@@ -56,17 +64,19 @@ const Sidebar = () => {
         <NavLink
           className="contact-link"
           to="/contact"
+          aria-label="Contact"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color={color1} />
         </NavLink>
-        <FontAwesomeIcon
+        <button
+          type="button"
+          className="close-icon-button"
+          aria-label="Close menu"
           onClick={() => setShowNav(false)}
-          icon={faClose}
-          color={color2}
-          size="3x"
-          className="close-icon"
-        />
+        >
+          <FontAwesomeIcon icon={faClose} color={color2} size="3x" />
+        </button>
       </nav>
       <ul>
         <li>
@@ -74,6 +84,7 @@ const Sidebar = () => {
             href="https://www.linkedin.com/in/estebanmanrupe/"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -83,7 +94,12 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/peurman" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/peurman"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
             <FontAwesomeIcon
               icon={faGithub}
               color={color1}
@@ -96,6 +112,7 @@ const Sidebar = () => {
             href="https://www.instagram.com/peurman"
             rel="noreferrer"
             target="_blank"
+            aria-label="Instagram"
           >
             <FontAwesomeIcon
               icon={faInstagram}
@@ -105,7 +122,12 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="skype:live:esteban_manrupe" rel="noreferrer" target="_blank">
+          <a
+            href="skype:live:esteban_manrupe"
+            rel="noreferrer"
+            target="_blank"
+            aria-label="Skype"
+          >
             <FontAwesomeIcon
               icon={faSkype}
               color={color1}
@@ -114,13 +136,14 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-      <FontAwesomeIcon
+      <button
+        type="button"
+        className="hamburger-icon-button"
+        aria-label="Open menu"
         onClick={() => setShowNav(true)}
-        icon={faBars}
-        color={color2}
-        size="3x"
-        className="hamburger-icon"
-      />
+      >
+        <FontAwesomeIcon icon={faBars} color={color2} size="3x" />
+      </button>
     </div>
   )
 }

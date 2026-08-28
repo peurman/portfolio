@@ -30,28 +30,34 @@ const Portfolio = () => {
                 <p className="title">{port.title}</p>
                 <h4 className="description">{port.description}</h4>
                 {port.deploy && (
-                  <button
+                  <a
                     className="btn"
-                    onClick={() => window.open(port.deploy)}
+                    href={port.deploy}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     DEPLOY
-                  </button>
+                  </a>
                 )}
                 {port.repo && (
-                  <button
+                  <a
                     className="btn"
-                    onClick={() => window.open(port.repo)}
+                    href={port.repo}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     REPOSITORY
-                  </button>
+                  </a>
                 )}
                 {port.video && (
-                  <button
+                  <a
                     className="btn"
-                    onClick={() => window.open(port.video)}
+                    href={port.video}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     VIDEO
-                  </button>
+                  </a>
                 )}
               </div>
             </div>
