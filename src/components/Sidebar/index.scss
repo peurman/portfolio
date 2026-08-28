@@ -3,7 +3,7 @@ $quinary-color: #f6b6b6;
 
 .nav-bar {
   background: #181818;
-  width: 65px;
+  width: 80px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -62,12 +62,16 @@ $quinary-color: #f6b6b6;
 
       &:after {
         content: '';
-        font-size: 9px;
+        font-size: 10px;
         letter-spacing: 1px;
         position: absolute;
         bottom: 0;
+        left: 0;
         display: block;
         width: 100%;
+        padding: 0 4px;
+        box-sizing: border-box;
+        white-space: nowrap;
         text-align: center;
         opacity: 0;
         -webkit-transition: all 0.3s ease-out;
