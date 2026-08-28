@@ -7,7 +7,10 @@ export interface Project {
   video?: string
 }
 
+export type SkillCategory = 'frontend' | 'backend' | 'tools'
+
 export interface Skill {
   img: string
   name: string
+  category: SkillCategory
 }
