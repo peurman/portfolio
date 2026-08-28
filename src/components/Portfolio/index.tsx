@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react'
 import Loader from '../Loader'
 import AnimatedLetters from '../AnimatedLetters'
+import { usePageTitle } from '../../hooks/usePageTitle'
 import portfolioData from '../../data/portfolio.json'
 import type { Project } from '../../types'
 import './index.scss'
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  usePageTitle('Portfolio')
 
   useEffect(() => {
     const timer = setTimeout(() => {

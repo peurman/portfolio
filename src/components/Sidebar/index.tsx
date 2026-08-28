@@ -1,7 +1,7 @@
 import './index.scss'
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import Logo from '../../assets/images/logoEM.png'
+import Logo from '../../assets/images/logoEM.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
