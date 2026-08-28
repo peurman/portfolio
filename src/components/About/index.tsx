@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loader from '../Loader'
 import AnimatedLetters from '../AnimatedLetters'
+import { usePageTitle } from '../../hooks/usePageTitle'
 import './index.scss'
 import {
   VerticalTimeline,
@@ -14,6 +15,7 @@ import CV from '../../assets/Esteban_Manrupe_Resume.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  usePageTitle('About')
 
   useEffect(() => {
     const timer = setTimeout(() => {

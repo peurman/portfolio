@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from '../Loader'
 import AnimatedLetters from '../AnimatedLetters'
-import YO from '../../assets/images/YO.png'
+import { usePageTitle } from '../../hooks/usePageTitle'
+import YO from '../../assets/images/YO.webp'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -14,6 +15,7 @@ import {
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  usePageTitle()
 
   useEffect(() => {
     const timer = setTimeout(() => {

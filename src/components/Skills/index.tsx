@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loader from '../Loader'
 import AnimatedLetters from '../AnimatedLetters'
+import { usePageTitle } from '../../hooks/usePageTitle'
 import skillsData from '../../data/skills.json'
 import type { Skill, SkillCategory } from '../../types'
 import './index.scss'
@@ -13,6 +14,7 @@ const GROUPS: { id: SkillCategory; label: string }[] = [
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  usePageTitle('Skills')
 
   useEffect(() => {
     const timer = setTimeout(() => {

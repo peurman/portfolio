@@ -3,12 +3,14 @@ import type { FormEvent } from 'react'
 import Loader from '../Loader'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
+import { usePageTitle } from '../../hooks/usePageTitle'
 import './index.scss'
 import Swal from 'sweetalert2'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef<HTMLFormElement>(null)
+  usePageTitle('Contact')
 
   useEffect(() => {
     const timer = setTimeout(() => {
