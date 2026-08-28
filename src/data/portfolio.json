@@ -1,6 +1,12 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/TTS_img.jpg",
+      "title": "THE TAPPING SOLUTION",
+      "description": "React, TypeScript, Tailwind, MUI, Zustand, React Hook Form — integrated RevenueCat, Stripe, Algolia, Amplitude & Braze",
+      "deploy": "https://app.thetappingsolution.com/"
+    },
+    {
       "cover": "/portfolio/COMO_VAMOS_img.png",
       "title": "CÓMO VAMOS",
       "description": "React Native, Expo, TypeScript, NativeWind, Zustand, React Navigation, Reanimated",
