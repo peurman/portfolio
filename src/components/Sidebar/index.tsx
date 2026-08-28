@@ -17,6 +17,7 @@ import {
   faBars,
   faClose,
   faToolbox,
+  faRobot,
 } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => {
@@ -52,6 +53,14 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faToolbox} color={color1} />
+        </NavLink>
+        <NavLink
+          className="ai-link"
+          to="/ai"
+          aria-label="AI Experience"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faRobot} color={color1} />
         </NavLink>
         <NavLink
           className="portfolio-link"
