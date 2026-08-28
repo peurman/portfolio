@@ -23,21 +23,18 @@ $quinary-color: #f6b6b6;
   .images-container {
     opacity: 0;
     animation: fadeIn 1.5s 2.5s forwards;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     gap: 20px;
-    flex-wrap: wrap;
     padding-bottom: 100px;
     padding-top: 10px;
   }
 
   .image-box {
     position: relative;
-    flex: 1 1 20%;
     height: 400px;
     overflow: hidden;
     border-radius: 10px;
-    min-width: 290px;
-    max-width: calc(40% - 10px);
 
     .portfolio-image {
       position: absolute;
@@ -133,9 +130,8 @@ $quinary-color: #f6b6b6;
       align-content: center;
     }
     .images-container {
-      display: flex;
-      flex-wrap: wrap;
-      height: 500px;
+      grid-template-columns: 1fr;
+      height: auto;
       padding: 20px;
       width: 100%;
     }
